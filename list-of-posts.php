@@ -1,6 +1,6 @@
 <?php
 /*
- * [insert_posts posttype="post" howmany="5" class="bw-post-list" entryheader="h2" date="no" featuredimage="yes" imagesize="post-thumbnail" summary="summary" cat="" author="no" orderby="date" order="DESC"]
+ * [list_posts posttype="post" howmany="5" class="bw-post-list" entryheader="h2" date="no" featuredimage="yes" imagesize="post-thumbnail" summary="summary" cat="" author="no" orderby="date" order="DESC"]
 */
 
 add_shortcode( 'list_posts', 'bw_list_posts_shortcode' );
