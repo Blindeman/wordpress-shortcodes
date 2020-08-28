@@ -53,4 +53,3 @@ function bw_author_list ( $atts = [] ) {
 	return $out;
 }
 
-?>
