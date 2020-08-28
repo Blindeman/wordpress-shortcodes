@@ -1,6 +1,6 @@
 <?php
 /*
- * Shortcode to create a dropdown of authors with links to an archive of their posts. [show_user_dropdown excl=""]
+ * Shortcode to create a dropdown of authors with links to an archive of their posts. [show_author_dropdown excl=""]
  * excl is any author you wish to exclude. Provide the ids in a space seperated list (33 2 4)
 */
 
