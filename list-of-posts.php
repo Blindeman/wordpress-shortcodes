@@ -23,7 +23,7 @@ function bw_list_posts_shortcode( $atts ) {
 			'order' => 'DESC'
 		),
 		$atts,
-		'insert_posts'
+		'list_posts'
     );
 
     if( strpos( $atts['posttype'], ',') !== FALSE ){
