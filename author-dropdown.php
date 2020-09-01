@@ -1,7 +1,9 @@
 <?php
-/*
+/**
  * Shortcode to create a dropdown of authors with links to an archive of their posts. [show_author_dropdown excl=""]
  * excl is any author you wish to exclude. Provide the ids in a space seperated list (33 2 4)
+ * There is no styling, do your own or you can contact me and I might help
+ * Naomi Blindeman: naomi@blindeman.com
 */
 
 add_shortcode( 'show_author_dropdown', 'bw_author_dropdown' );

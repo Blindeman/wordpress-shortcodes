@@ -1,8 +1,10 @@
 <?php
-/*
+/**
  * Shortcode to create a list of users [list_all_authors excl="" link=yes]
  * excl is any author you wish to exclude. Provide the ids in a space separated list (33 2 4)
  * link is whether to link to the author post pages. Options are yes or no
+ * There is no styling, do your own or you can contact me and I might help
+ * Naomi Blindeman: naomi@blindeman.com
 */
 
 add_shortcode( 'list_all_authors', 'bw_author_list' );

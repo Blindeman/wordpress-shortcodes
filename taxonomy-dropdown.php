@@ -1,9 +1,11 @@
 <?php
-/*
+/**
  * Shortcode to create a dropdown for initial filtering of posts. [show_tax_dropdown tax="category" text="Choose..." excl=""]
  * tax is the name of the taxonomy (category, post_tag, etc)
  * text is the first words available in the dropdown
  * excl is any terms (categories, tags) you wish to exclude. Provide the ids in a list seperated by spaces (33 2 4)
+ * There is no styling, do your own or you can contact me and I might help
+ * Naomi Blindeman: naomi@blindeman.com
 */
 
 add_shortcode( 'show_tax_dropdown', 'sgu_tax_dropdown' );

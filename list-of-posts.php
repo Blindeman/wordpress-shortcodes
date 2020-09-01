@@ -1,6 +1,8 @@
 <?php
-/*
+/**
  * [list_posts posttype="post" howmany="5" class="bw-post-list" entryheader="h2" date="no" featuredimage="yes" imagesize="post-thumbnail" summary="summary" cat="" author="no" orderby="date" order="DESC"]
+ * There is no styling, do your own or you can contact me and I might help
+ * Naomi Blindeman: naomi@blindeman.com
 */
 
 add_shortcode( 'list_posts', 'bw_list_posts_shortcode' );
