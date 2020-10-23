@@ -4,6 +4,7 @@
  * excl is any author you wish to exclude. Provide the ids in a space seperated list (33 2 4)
  * There is no styling, do your own or you can contact me and I might help
  * Naomi Blindeman: naomi@blindeman.com
+ * For more shortcodes see https://github.com/Blindeman/wordpress-shortcodes
 */
 
 add_shortcode( 'show_author_dropdown', 'bw_author_dropdown' );
