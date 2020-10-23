@@ -5,6 +5,7 @@
  * link is whether to link to the author post pages. Options are yes or no
  * There is no styling, do your own or you can contact me and I might help
  * Naomi Blindeman: naomi@blindeman.com
+ * For more shortcodes see https://github.com/Blindeman/wordpress-shortcodes
 */
 
 add_shortcode( 'list_all_authors', 'bw_author_list' );
