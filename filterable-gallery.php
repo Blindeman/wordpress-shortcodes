@@ -11,6 +11,7 @@
  * This shortcode uses jQuery for the filtering
  * There is no styling, do your own or you can contact me and I might help
  * Naomi Blindeman: naomi@blindeman.com
+ * For more shortcodes see https://github.com/Blindeman/wordpress-shortcodes
  */
 
 add_shortcode( 'filter_gallery', 'bw_filter_gallery_shortcode');
