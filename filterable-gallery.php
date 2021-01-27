@@ -24,9 +24,9 @@ function bw_filter_gallery_shortcode( $atts ){
 			'imgsize' => 'medium'
 		), $atts, 'filter_gallery' );
 	
-	//If the taxonomy is empty, give an error, else process the content
+	//If the tax parameter is empty, give an error, else process the content
 	if( $atts['tax'] === '' ){
-		$out = "<p class=\"alert error\">This shortcode needs the name of the media taxonomy.</p>";
+		$out = "<p class=\"alert error\">This shortcode needs the name of the taxonomy associated with media.</p>";
 	} else {
 		//Using sanitize_title for cheap sanitation 
 		$sTaxonomy = sanitize_title( $atts['tax'] );
