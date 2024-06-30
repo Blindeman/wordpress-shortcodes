@@ -45,7 +45,13 @@ function bw_tax_list ( $atts = [] ) {
 	//$sNoScript = '<noscript><input type="submit" value="Filter" /></noscript>';
 
 	//$out = $sForm . $sNoScript;
-  $out = $sSelect;
+
+	//$out = $sForm . $sNoScript;
+	if( $aParam["style"] === "list" ){
+		$out = '<ul class="bwtaxnav">' . $sSelect . '</ul>';
+	} else {
+		$out = '<div class="bwtaxnav">' . $sSelect . '</div>';
+	}
 
 	return $out;
 }
