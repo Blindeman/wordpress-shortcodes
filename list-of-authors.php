@@ -14,7 +14,7 @@ function bw_author_list ( $atts = [] ) {
 	$aParam = shortcode_atts( array(
 		'excl' => '',
 		'link' => 'yes'
-	), $atts, 'show_user_dropdown' );
+	), $atts, 'list_all_authors' );
 	
 	if( strpos( $aParam["excl"], " " ) !== FALSE ){
 		$aExcl = explode( " ", $aParam["excl"] );
