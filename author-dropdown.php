@@ -12,7 +12,7 @@ function bw_author_dropdown ( $atts = [] ) {
 	
 	$aParam = shortcode_atts( array(
 		'excl' => '',
-	), $atts, 'show_user_dropdown' );
+	), $atts, 'show_author_dropdown' );
 	
 	if( strpos( $aParam["excl"], " " ) !== FALSE ){
 		$aExcl = explode( " ", $aParam["excl"] );
